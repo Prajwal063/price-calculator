@@ -1,7 +1,3 @@
-// import express from 'express';
-
-// import { calculatePrice } from '../controller/event.controller';
-// import validate from '../middleware/validate';
 const express  = require('express');
 const validate = require( '../middleware/validate' );
 const { calculatePrice } = require( '../controller/price.controller');
@@ -65,5 +61,4 @@ router
     .route('/calculate')
     .post(validate(getPriceType), calculatePrice);
 
-// export default router;
 module.exports = router

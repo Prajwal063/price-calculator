@@ -22,7 +22,12 @@ describe('POST /price/calculate', () => {
 
   test('It should respond with status 400 for bad request', async () => {
     const payload = {
-      // Incomplete payload or invalid values
+      // Incomplete payload or invalid values like
+
+      // Missing or non-existent 'zone' field
+      organization_id: 2,
+      total_distance: 12,
+      item_type: "perishable"
     };
 
     const response = await request(app)
