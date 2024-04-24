@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "node": "^18.20.2",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3",
+    "supertest": "^7.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "zod": "^3.23.4"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
