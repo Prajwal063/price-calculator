@@ -6,9 +6,9 @@ const options = {
     definition: {
         openapi: '3.0.0',
         info: {
-            title: 'Dynamic Item Pricing',
+            title: 'Food Delivery App',
             version,
-            description: 'Dynamic Item Pricing Information',
+            description: 'Food Delivery App Information',
         },
     },
     apis: ['./src/routes/*.js'],

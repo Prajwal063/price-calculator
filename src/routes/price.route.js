@@ -5,7 +5,7 @@ const { getPriceType } = require('../types/schema');
 const router = express.Router();
 
 /**
- * @openapi
+ * @openapi: 3.0.0
  * '/price/calculate':
  *   post:
  *     tags:
