@@ -1,4 +1,4 @@
-const {pool} = require("../../database/connection")
+const {pool} = require("../../connection")
 exports.calculatePrice = async (req, res) => {
   try {
     const { zone, organization_id, total_distance, item_type } = req.body;

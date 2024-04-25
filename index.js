@@ -3,6 +3,10 @@ const bodyParser = require('body-parser');
 const priceRoute = require('./src/routes/price.route');
 const swaggerDocs = require('./src/utils/swagger');
 
+const path = require('path')
+require('dotenv').config({ path: './.env' })
+
+
 const app = express();
 const port = 3000;
 

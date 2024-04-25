@@ -11,7 +11,7 @@ const options = {
             description: 'Food Delivery App Information',
         },
     },
-    apis: ['./src/routes/*.js'],
+    apis: ['./src/routes/*.js', './src/schemas/*.yaml'],
 };
 
 const swaggerSpec = swaggerJsdoc(options);

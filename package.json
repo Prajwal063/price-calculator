@@ -13,7 +13,8 @@
     "zod": "^3.23.4"
   },
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js ",
+    "dev": "nodemon index.js ",
     "test": "jest"
   },
   "devDependencies": {
