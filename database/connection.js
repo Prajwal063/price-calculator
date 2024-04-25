@@ -1,5 +1,12 @@
 const { Pool } = require('pg');
 
+const path = require('path')
+
+require('dotenv').config({
+  override: true,
+  path: path.join(__dirname, '.env')
+})
+
 exports.pool = new Pool({
   user: 'postgres',
   host: 'localhost',
