@@ -1,7 +1,6 @@
 <h1>Food Delivery App</h1>
 
 ## <a name="about">About</a>
-(https://price-calculator-zp5b.onrender.com)
 - [Website Link](https://price-calculator-zp5b.onrender.com)
 - [Swagger docs](https://price-calculator-zp5b.onrender.com/docs)
 - [Swagger docs in JSON](https://price-calculator-zp5b.onrender.com/docs.json)
