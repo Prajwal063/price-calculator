@@ -2,6 +2,7 @@
 
 ## <a name="about">About</a>
 - [Website Link](https://price-calculator-zp5b.onrender.com)
+- [Post Request](https://price-calculator-zp5b.onrender.com/price/calculate)
 - [Swagger docs](https://price-calculator-zp5b.onrender.com/docs)
 - [Swagger docs in JSON](https://price-calculator-zp5b.onrender.com/docs.json)
 
